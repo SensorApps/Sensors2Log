@@ -3,7 +3,7 @@
  */
 package br.usp.appneia.newrecord;
 
-import br.usp.appneia.AppneiaActivity;
+import br.usp.appneia.Sensors2LogActivity;
 import br.usp.appneia.R;
 import br.usp.utils.DeviceUtils;
 import android.app.Activity;
@@ -56,7 +56,7 @@ public class AfterSleepFormActivity extends Activity {
         	public void onClick(DialogInterface arg0, int arg1) {
         		try {
         		
-        			Intent intentSave = new Intent(context, AppneiaActivity.class);
+        			Intent intentSave = new Intent(context, Sensors2LogActivity.class);
         			startActivity(intentSave);
         			finalize();
         		} catch (Throwable e) {
@@ -93,7 +93,7 @@ public class AfterSleepFormActivity extends Activity {
 					if (saveAnswers()) {
 						
 						Toast.makeText(context, R.string.after_sleep_success, Toast.LENGTH_LONG).show();
-						Intent intentSave = new Intent(context, AppneiaActivity.class);
+						Intent intentSave = new Intent(context, Sensors2LogActivity.class);
 						startActivity(intentSave);
 						finish();
 					} else {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Appneia</string>
+    <string name="app_name">Sensors2Log</string>
     <string name="file_record_answers">recorded_answers.txt</string>
     <string name="file_record_sensors">recorded_sensors.txt</string>
     <string name="yes">Yes</string>
@@ -16,11 +16,11 @@
     <string name="new_record">New record</string>
     <string name="stored_records">Stored records</string>
     <string name="preferences">Preferences</string>
-    <string name="title_activity_new_record_before_sleep_form">Appneia - Before sleep form</string>
-    <string name="title_activity_new_record_monitoring">Appneia - Monitoring</string>
-    <string name="title_activity_new_record_after_sleep_form">Appneia - After sleep form</string>
-    <string name="title_activity_stored_records">Appneia - Stored records</string>
-    <string name="title_activity_preferences">Appneia - Preferences</string>
+    <string name="title_activity_new_record_before_sleep_form">Sensors2Log - Before sleep form</string>
+    <string name="title_activity_new_record_monitoring">Sensors2Log - Monitoring</string>
+    <string name="title_activity_new_record_after_sleep_form">Sensors2Log - After sleep form</string>
+    <string name="title_activity_stored_records">Sensors2Log - Stored records</string>
+    <string name="title_activity_preferences">Sensors2Log - Preferences</string>
     <string name="alert_finish_monitoring_title">Finish monitoring</string>
     <string name="alert_finish_monitoring_message">Are you sure that you want to finish?</string>
     <string name="before_sleep_form">Before sleep form</string>

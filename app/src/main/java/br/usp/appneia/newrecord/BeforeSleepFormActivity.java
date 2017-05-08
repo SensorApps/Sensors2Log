@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import br.usp.appneia.AppneiaActivity;
+import br.usp.appneia.Sensors2LogActivity;
 import br.usp.appneia.R;
 import br.usp.utils.DeviceUtils;
 import android.app.Activity;
@@ -61,7 +61,7 @@ public class BeforeSleepFormActivity extends Activity {
         	public void onClick(DialogInterface arg0, int arg1) {
         		try {
         		
-        			Intent intentSave = new Intent(context, AppneiaActivity.class);
+        			Intent intentSave = new Intent(context, Sensors2LogActivity.class);
         			startActivity(intentSave);
         			finalize();
         		} catch (Throwable e) {

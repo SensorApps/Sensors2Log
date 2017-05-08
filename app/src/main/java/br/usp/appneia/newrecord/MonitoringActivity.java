@@ -7,7 +7,7 @@ import java.io.IOException;
 
 import com.buihha.audiorecorder.Mp3Recorder;
 
-import br.usp.appneia.AppneiaActivity;
+import br.usp.appneia.Sensors2LogActivity;
 import br.usp.appneia.R;
 import br.usp.sensorrecorder.SensorRecorder;
 import br.usp.utils.DeviceUtils;
@@ -115,7 +115,7 @@ public class MonitoringActivity extends Activity implements SensorEventListener 
         	public void onClick(DialogInterface arg0, int arg1) {
         		try {
         		
-        			Intent intentSave = new Intent(context, AppneiaActivity.class);
+        			Intent intentSave = new Intent(context, Sensors2LogActivity.class);
         			startActivity(intentSave);
         			finalize();
         		} catch (Throwable e) {

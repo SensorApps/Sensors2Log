@@ -1,5 +1,5 @@
 /**
- * Appneia Activity
+ * Sensors2Log Activity
  */
 package br.usp.appneia;
 
@@ -21,7 +21,7 @@ import android.widget.Button;
  * @author dj
  *
  */
-public class AppneiaActivity extends AppCompatActivity {
+public class Sensors2LogActivity extends AppCompatActivity {
 
 	Context context = this;
 	
@@ -49,7 +49,7 @@ public class AppneiaActivity extends AppCompatActivity {
 		switch (item.getItemId()) {
 		case R.id.menu_item_preferences:
 			
-			Intent intentPreferences = new Intent(AppneiaActivity.this, PreferencesActivity.class);
+			Intent intentPreferences = new Intent(Sensors2LogActivity.this, PreferencesActivity.class);
 			startActivity(intentPreferences);
 			break;
 

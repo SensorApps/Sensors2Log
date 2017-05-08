@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="app_name">Appneia</string>
+    <string name="app_name">Sensors2Log</string>
     <string name="file_record_answers">recorded_answers.txt</string>
     <string name="file_record_sensors">recorded_sensors.txt</string>
     <string name="yes">Sim</string>
@@ -16,11 +16,11 @@
     <string name="new_record">Novo registro</string>
     <string name="stored_records">Registros armazenados</string>
     <string name="preferences">Preferências</string>
-    <string name="title_activity_new_record_before_sleep_form">Appneia - Formulário pré-sono</string>
-    <string name="title_activity_new_record_monitoring">Appneia - Monitorando sono</string>
-    <string name="title_activity_new_record_after_sleep_form">Appneia - Formulário pós-sono</string>
-    <string name="title_activity_stored_records">Appneia - Registros armazenados</string>
-    <string name="title_activity_preferences">Appneia - Preferências</string>
+    <string name="title_activity_new_record_before_sleep_form">Sensors2Log - Formulário pré-sono</string>
+    <string name="title_activity_new_record_monitoring">Sensors2Log - Monitorando sono</string>
+    <string name="title_activity_new_record_after_sleep_form">Sensors2Log - Formulário pós-sono</string>
+    <string name="title_activity_stored_records">Sensors2Log - Registros armazenados</string>
+    <string name="title_activity_preferences">Sensors2Log - Preferências</string>
     <string name="alert_finish_monitoring_title">Finalizar monitoramento</string>
     <string name="alert_finish_monitoring_message">Você tem certeza que deseja finalizar o monitoramento?</string>
     <string name="before_sleep_form">Questionário Pré-Sono</string>
